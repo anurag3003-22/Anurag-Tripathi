@@ -34,11 +34,11 @@ You can view the current stock of items by calling the public state variable:
 
 ## 🔒 Owner-Only Functions
 
-The following functions can only be called by the contract owner (`[PASTE YOUR OWNER ADDRESS HERE]`).
+The following functions can only be called by the contract owner 
 
 ### **Refill Inventory**
 
-* **Function:** `refill(uint _amount)`
+* **Function:** `refill`
 * **Description:** Adds a specified `_amount` to the current `inventory` stock.
 
 ### **Withdraw Funds**
