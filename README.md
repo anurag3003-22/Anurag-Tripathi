@@ -11,6 +11,7 @@ A basic Solidity Vending Machine smart contract deployed on Core Testnet 2. This
 | **Contract Name** | `DecentralizedVendingMachine` |
 | **Solidity Version** | `0.8.0` or higher |
 | **Network Deployed On** | Core Testnet 2 |
+| **Deployed Address** | 0xDF19Ba482dB527Ee98D4E51405928c695a7F34A8 |
 
 ---
 
@@ -34,11 +35,11 @@ You can view the current stock of items by calling the public state variable:
 
 ## 🔒 Owner-Only Functions
 
-The following functions can only be called by the contract owner 
+The following functions can only be called by the contract owner.
 
 ### **Refill Inventory**
 
-* **Function:** `refill`
+* **Function:** `refill(uint _amount)`
 * **Description:** Adds a specified `_amount` to the current `inventory` stock.
 
 ### **Withdraw Funds**
@@ -51,4 +52,4 @@ The following functions can only be called by the contract owner
 ## 🔗 Source Code
 
 The full contract code is available in the repository file:
-`[VendingMachine.sol]` 
+[`decentralizedvendingmachine.sol`](decentralizedvendingmachine.sol)
