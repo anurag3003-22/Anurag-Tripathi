@@ -1,10 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract DecentralizedVendingMachine {
-    // ... rest of the code
-}
-
 contract DecentralizedVendingMachine { address public owner; uint public itemPrice = 0.001 ether; // Set a low price for testnet uint public inventory = 10; // Initial stock of items
 
 // The contract owner is set upon deployment
